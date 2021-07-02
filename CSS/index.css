@@ -1,0 +1,140 @@
+html,body{
+    padding:0px; 
+    margin:0px;	
+	
+}
+
+.header_wrapper{
+	width:100%;
+	height: 25px;
+	padding:0px;
+	margin:0px;
+	background:pink;
+}
+.header_wrapper a{ text-decoration:none; color:#09F;}
+.header_wrapper a:hover{ text-decoration:underline; color:black;}
+
+.login{
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+	font-size:12px;
+	padding-top:3px;
+	font-size:12px;
+	width:920px;
+	font-weight:900;
+	margin-left:auto;
+	margin-right:auto;
+}
+.login ul{
+	float:right;
+	padding:0px;
+	margin:0px;
+}
+.login ul li{
+	position:relative;
+	list-style:none;
+} 
+.login ul li a{
+	text-decoration:none;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:900;
+	text-shadow:1px 1px 5px #333;
+	color:black;
+}
+.login ul li a:hover{
+	text-decoration:underline;
+}
+
+.header_menu{
+	height:38px;
+	width:100%;
+    margin-top: 1px;
+    -box-shadow:0px 0px 8px #000;
+	-moz-box-shadow:0px 0px 8px #000;
+	-webkit-box-shadow:0px 0px 8px #000;
+	border:1px medium #000;
+    background-color: antiquewhite;
+}
+.menu{
+	width:920px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.menu ul{
+	padding:0px;
+	margin:0px;
+}
+.menu ul li{
+	position:relative;
+	float:left;
+	list-style:none;
+	line-height:40px;
+}
+.menu ul li a{
+	text-decoration:none;
+	display:block;
+	padding:10px 40px 10px 10px;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:900;
+	text-shadow:1px 1px 5px #333;
+	color:black;
+}
+.menu ul li:hover{
+	background:#333;
+	color:#3F6;
+	opacity:0.9;
+}
+
+.header{
+	height:36px;
+	padding-bottom:3px;
+	padding-left:1px;
+}
+
+#news_header{
+	margin-top:25px;
+	padding:10px;
+	font-family:Bernard MT Condensed;
+	color: black;
+    text-align: center;
+    font-size: 25px;
+    text-shadow:5px 5px 10px #00FF00;
+}
+
+figure{
+    border: 1px #cccccc solid;
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.news_content ul li{
+    float: left;
+    width: 32.33%;
+    margin-bottom: 40px;
+	padding: 5px;
+}
+
+.container_wrapper{
+	width:920px;
+	height:1108px;
+	padding:0px;
+	position:relative;
+	margin-top:16px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.header_under{
+	background:url(../Templates/headerunder.png) repeat-x;
+	width:100%;
+	height:32px;
+}
+
